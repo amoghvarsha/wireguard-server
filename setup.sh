@@ -21,7 +21,7 @@ main() {
 
     # Run script to create interface from /etc/wireguard directory
     cd /etc/wireguard || exit
-    sudo ./create-interface.sh
+    /bin/bash ./create-interface.sh
 }
 
 if [ "$EUID" -ne 0 ]; then
