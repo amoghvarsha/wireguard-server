@@ -1,0 +1,6 @@
+IN_FACE='eth0'
+WG_FACE='wg0'
+
+WG_ADDR=
+WG_PORT=
+WG_DOMAIN=
